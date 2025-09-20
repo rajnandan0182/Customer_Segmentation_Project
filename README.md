@@ -1,6 +1,6 @@
 # Customer_Segmentation_Project
 
-## PS:
+## 🎯 PS:
  
    Customer Personality Analysis is the process of deeply understanding a company’s target audience. It enables businesses to identify customer needs, behaviors, and preferences, making it easier to adapt products and services to fit different customer groups.
 
@@ -8,9 +8,16 @@ By segmenting customers based on their characteristics, businesses can design mo
 
 ## Data preprocessing & Feature Engineering
 
-1) Missing values were imputed through median.
-2) Created Age feature from customer's birth date.
-3) Created Days_Since_Customer to demonstrate the number of days since the customer enrolled
-4) Created Num_Kids & Fam_size for family size analysis.
-5) Created Num_accepted which accounts for all the accepted offers by the customers from the previous 5 campaigns
-6) MntTotal : Total amount spent by a customer in the last two years
+Handled Missing Values – Imputed null values using the median method.
+
+Derived Age Feature – Calculated customer Age from the birth date.
+
+Customer Tenure – Created Days_Since_Customer to represent the number of days since enrollment.
+
+Family Features – Generated Num_Kids and Fam_Size to analyze household demographics.
+
+Campaign Response – Built Num_Accepted, capturing total accepted offers from the last five campaigns.
+
+Spending Behavior – Computed MntTotal, representing the total amount spent by a customer in the past two years.
+
+## Exploratory Data Analysis
