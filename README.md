@@ -161,42 +161,45 @@ Realizing that 2 components only explained a small portion of the variance, we i
 
 
 # Summary
-**Cluster 0 :**
+**Cluster 0 – Largest Segment (46%)**
 
-*Comprises of 46% customers (Largest pool)<br>
-*Least Income<br>
-*Least money spent<br>
-*Least Number of purchases<br>
-*Large Family size<br>
+Represents nearly half of our customer base.
 
-**Cluster 0 is our largest customer segment, making up 46% of our customer base. These customers generally have the lowest income and spending, along with the least number of purchases. They also tend to have larger families. To better engage this segment, we should consider offering budget-friendly promotions and products that cater to larger families**
+Customers generally have low income, low spending, and few purchases.
 
-**Cluster 1:**
+Tend to have larger families.
 
-*Oldest Cluster<br>
-*low income + low spending<br>
-*Long time customer<br>
-*Largest Family size<br>
-*Highest number of purchases with discount<br>
+Insights & Recommendations:
+This segment is highly price-sensitive. To engage them effectively, we should focus on budget-friendly products and family-oriented promotions that appeal to their needs.
 
-**Cluster 1 consists of our oldest customers who have been with us for a long time. They have low income and spending but are very loyal and frequently use discounts. This cluster also has the largest family sizes. To retain their loyalty, we should continue providing targeted discounts and special offers, emphasizing our appreciation for their long-term support**
+**Cluster 1 – Long-Term Loyal Customers**
 
-**Cluster 2:**
+Older, long-standing customers with low income and low spending.
 
-*High income<br>
-*High number of purchases<br>
-*Low family size<br>
-*Doesnt utilise discounts much<br>
+Despite modest spending, they purchase frequently using discounts.
 
-**Cluster 2 includes customers with high income who make frequent purchases. They generally have smaller families and don't utilize discounts much. This indicates that they value quality and exclusivity over discounts. To engage this segment, we should focus on offering premium products and services, possibly through a loyalty program that provides exclusive benefits**
+They have the largest family sizes.
 
-**Cluster 3:**
+Insights & Recommendations:
+This segment demonstrates strong loyalty. Retention strategies should include targeted discounts, special offers, and recognition of their long-term commitment.
 
-*Smallest pool (only 9%)<br>
-*Highest Income and spending<br>
-*Most purchases<br>
-*Low family size<br>
-*Regular customers<br>
+**Cluster 2 – High-Income Frequent Buyers**
 
-**Cluster 3 is our smallest segment, comprising only 9% of our customer base, but they are our most valuable customers. They have the highest income and spending levels and make the most purchases. These customers are regular shoppers with small family sizes. To retain and reward these high-value customers, we should implement personalized marketing strategies and VIP programs that offer exclusive benefits and experiences.**
+Customers with high income and frequent purchases.
+
+Tend to have smaller families and rarely use discounts.
+
+Insights & Recommendations:
+They value quality and exclusivity over price. Engagement strategies should focus on premium products and exclusive loyalty programs offering special perks.
+
+**Cluster 3 – VIP Segment (9%)**
+
+Smallest group but the most valuable.
+
+Customers with highest income, highest spending, and most purchases.
+
+Typically have small families and are regular shoppers.
+
+Insights & Recommendations:
+This high-value segment should be nurtured with personalized marketing, VIP programs, and exclusive benefits or experiences to maintain loyalty and maximize lifetime value.
 
