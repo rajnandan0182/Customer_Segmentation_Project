@@ -22,7 +22,7 @@ By segmenting customers based on their characteristics, businesses can design mo
 
 ## Exploratory Data Analysis
 1)  **Box-plot **
-     ![image](https://github.com/user-attachments/assets/94f3f885-4cd9-4026-90cc-b2246bb760c9)
+    
    
 **We decided not to remove outliers, since the Response column is imbalanced.**
 
