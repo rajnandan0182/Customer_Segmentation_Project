@@ -31,39 +31,60 @@ By segmenting customers based on their characteristics, businesses can design mo
 
 2) **Relation Between Education, Income & Response**
    <img width="847" height="536" alt="responses2" src="https://github.com/user-attachments/assets/52895d51-5d74-4745-9ff2-ea166232794c" />
+   <img width="828" height="542" alt="Responses" src="https://github.com/user-attachments/assets/53963caa-6d47-4361-a433-153d744742e8" />
+   <img width="822" height="537" alt="responses1" src="https://github.com/user-attachments/assets/16db157e-0e58-4eac-b660-fbd500cf67c4" />
+
+
 
 
  
 4) **Does Recency affect Responses?**
    (Recency is the Number of days since customer's last purchase)
+   <img width="770" height="532" alt="responses3" src="https://github.com/user-attachments/assets/de81d85e-1631-4123-9d4f-6e14f676c4d9" />
+
 
   
 
-5) **How have customers spent in the last two years?**
-   
+6) **How have customers spent in the last two years?**
+   <img width="732" height="661" alt="Screenshot 2025-09-23 002733" src="https://github.com/user-attachments/assets/aebe2ed6-a79c-4d40-9b00-bae2483b51cd" />
+   <img width="810" height="547" alt="Screenshot 2025-09-22 235516" src="https://github.com/user-attachments/assets/bf752530-669a-4cd4-9335-e7c97e643878" />
+
+
   
 
 
-6) **Does Family Size affect purchases?**
+7) **Does Family Size affect purchases?**
+    <img width="772" height="533" alt="Screenshot 2025-09-22 235538" src="https://github.com/user-attachments/assets/2c93349f-c9b4-43e1-beaf-a0b8c68bf73b" />
+    <img width="808" height="536" alt="Screenshot 2025-09-22 235609" src="https://github.com/user-attachments/assets/91ad68bc-9d60-4256-bf2c-3ff844b2dadb" />
+
+
 
   
 
-7) Purchases made at stores/website/catalog/discount purchases
+9) Purchases made at stores/website/catalog/discount purchases
+    <img width="1177" height="295" alt="Screenshot 2025-09-22 235628" src="https://github.com/user-attachments/assets/826af556-a7f5-4bb8-acb0-3ffff64a3b38" />
 
 
-8) **Checking for patterns in purchases made through store, website and catalog**
+
+11) **Checking for patterns in purchases made through store, website and catalog**
+  <img width="1227" height="762" alt="Screenshot 2025-09-22 235653" src="https://github.com/user-attachments/assets/0d298f2f-36c4-4bb2-b1ee-f51589c21bb5" />
+
  
-9) **Older people have more complaints?/ How have people with complaints reacted towards last campaign?**
+13) **Older people have more complaints?/ How have people with complaints reacted towards last campaign?**
+ <img width="772" height="540" alt="Screenshot 2025-09-22 235745" src="https://github.com/user-attachments/assets/370ddc90-4f4f-4c40-bc58-3cae5f8e014c" />
+
 
  
 
-10) **Regular customers seem to be happy**
+15) **Regular customers seem to be happy**
+    <img width="773" height="533" alt="Screenshot 2025-09-22 235803" src="https://github.com/user-attachments/assets/06eebefd-bd1e-4090-9c2c-b6d6138edecd" />
 
 
 
-11) How do features correlate ?
 
-  
+17) How do features correlate ?
+  <img width="950" height="766" alt="Screenshot 2025-09-23 001100" src="https://github.com/user-attachments/assets/0798a696-adba-46e0-8244-456a84f197bc" />
+
 
 **Correlation Coefficients for response:**<br>
 
@@ -85,30 +106,58 @@ By segmenting customers based on their characteristics, businesses can design mo
 
 ## Dimensionality Reduction
 
+<img width="787" height="537" alt="Screenshot 2025-09-23 000148" src="https://github.com/user-attachments/assets/76bf5b02-bc26-4a08-9393-8831ca9a0def" />
 
 
 We initially reduced the 22 features to 2 principal components using PCA to visualize the data.
+<img width="747" height="692" alt="Screenshot 2025-09-23 001159" src="https://github.com/user-attachments/assets/9cda064a-c6db-4007-b286-47eac2573907" />
+
 
 
 Upon visualizing the data in 2D, we observed that it was challenging to differentiate between the entries with response 0 and 1. So we proceeded to 3 n_components.
+<img width="941" height="812" alt="Screenshot 2025-09-23 001256" src="https://github.com/user-attachments/assets/369e6557-2071-4e9a-83b0-1805aa8f947f" />
+
 
 
 
 We performed clustering, with 3 components using K-means clustering . Here is the Elbow curve:
+<img width="685" height="411" alt="Screenshot 2025-09-23 001320" src="https://github.com/user-attachments/assets/c2768b32-81b2-4d6f-bec6-4ac55dcade5c" />
+
 
 
 
 We visualized the clusters in a 3D plot using the first three principal components."
+<img width="1536" height="476" alt="Screenshot 2025-09-23 001355" src="https://github.com/user-attachments/assets/a90f81b4-c66c-4ec9-ae44-94c68b90dfe6" />
+
 
 
 
 The 3D visualization helped us understand the separation and distribution of the clusters better.
 
 Realizing that 2 components only explained a small portion of the variance, we increased the number of components to 3, which improved the explained variance but was still not enough. Eventually, we increased it to 7 components, capturing 72% of the total variance
+<img width="685" height="411" alt="Screenshot 2025-09-23 001320" src="https://github.com/user-attachments/assets/62732eaa-0ec3-4aa5-8ede-65fb27d88bee" />
+<img width="1127" height="442" alt="Screenshot 2025-09-23 001451" src="https://github.com/user-attachments/assets/76e8f5f5-655d-4aa6-9530-e38b1f9b28d0" />
+
+
 
 
 
 ## Visualising the clusters:
+<img width="796" height="491" alt="Screenshot 2025-09-23 001513" src="https://github.com/user-attachments/assets/a45ea3f0-2324-4df0-be0e-559efdaa6487" />
+<img width="1100" height="681" alt="Screenshot 2025-09-23 001705" src="https://github.com/user-attachments/assets/7dcb1adf-57c1-4c8c-868a-45dd0f64bc95" />
+<img width="757" height="503" alt="Screenshot 2025-09-23 001642" src="https://github.com/user-attachments/assets/77758c94-c60a-4aca-aa77-1051983b7c6a" />
+<img width="703" height="482" alt="Screenshot 2025-09-23 001625" src="https://github.com/user-attachments/assets/7c6068cb-df48-4495-9602-e329e02e3442" />
+<img width="707" height="487" alt="Screenshot 2025-09-23 001610" src="https://github.com/user-attachments/assets/d3bbda83-826b-4d45-8af3-9993aaf33918" />
+<img width="757" height="485" alt="Screenshot 2025-09-23 001553" src="https://github.com/user-attachments/assets/e6df32cd-995e-4d19-a0de-2769ca5c4c3f" />
+<img width="987" height="622" alt="Screenshot 2025-09-23 001537" src="https://github.com/user-attachments/assets/f1dff356-81d5-4666-9fa4-aa1000c4d91a" />
+
+
+
+
+
+
+
+
 
 
 # Summary
