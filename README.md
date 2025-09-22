@@ -24,41 +24,44 @@ By segmenting customers based on their characteristics, businesses can design mo
 1)  **Box-plot **
     
 <img width="1147" height="562" alt="Boxplot1" src="https://github.com/user-attachments/assets/89c4cbd6-abbb-4b98-987a-0e4d63d09429" />
+<img width="1127" height="562" alt="Boxplot2" src="https://github.com/user-attachments/assets/7f4165d8-ac28-445e-8b5b-db3800fdeca2" />
+
     
-   
 **We decided not to remove outliers, since the Response column is imbalanced.**
 
 2) **Relation Between Education, Income & Response**
+   <img width="847" height="536" alt="responses2" src="https://github.com/user-attachments/assets/52895d51-5d74-4745-9ff2-ea166232794c" />
+
 
  
-3) **Does Recency affect Responses?**
+4) **Does Recency affect Responses?**
    (Recency is the Number of days since customer's last purchase)
 
   
 
-4) **How have customers spent in the last two years?**
+5) **How have customers spent in the last two years?**
    
   
 
 
-5) **Does Family Size affect purchases?**
+6) **Does Family Size affect purchases?**
 
   
 
-6) Purchases made at stores/website/catalog/discount purchases
+7) Purchases made at stores/website/catalog/discount purchases
 
 
-7) **Checking for patterns in purchases made through store, website and catalog**
+8) **Checking for patterns in purchases made through store, website and catalog**
  
-8) **Older people have more complaints?/ How have people with complaints reacted towards last campaign?**
+9) **Older people have more complaints?/ How have people with complaints reacted towards last campaign?**
 
  
 
-9) **Regular customers seem to be happy**
+10) **Regular customers seem to be happy**
 
 
 
-10) How do features correlate ?
+11) How do features correlate ?
 
   
 
